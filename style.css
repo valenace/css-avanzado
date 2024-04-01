@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero {
+    align-items: center;
+    background-image: url("lightscape-LtnPejWDSAY-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+}
