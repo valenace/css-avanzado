@@ -13,3 +13,25 @@ body{
     height: 400px;
     justify-content: center;
 }
+.menu-bar{
+    background-color: #000;
+    margin: 0;
+    /* width: 10em; Para menu vertical */
+}
+.menu-bar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* flex-direction: column; Para menu vertical*/
+}
+.menu-bar li{
+    padding: 1em;
+    list-style: none;
+}
+.menu-bar a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+.menu-bar a:hover{
+    color: white;
+}
